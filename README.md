@@ -6,6 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 2. cd into the new-visions repo
 3. Run $ npm install -> installs required dependencies
 4. Run $ npm start -> starts a server and the app should launch 
+* [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Image
 ![sample-image-task](https://github.com/wilsonvetdev/new-visions/blob/main/Screen%20Shot%202021-03-11%20at%203.40.34%20PM.png)
