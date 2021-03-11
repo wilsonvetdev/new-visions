@@ -1,7 +1,7 @@
 import './App.css';
 import StudentsData from './students.json'
-import Students from './Students'
-import StudentGroups from './StudentGroups'
+import Students from './components/Students'
+import StudentGroups from './components/StudentGroups'
 
 function App() {
 
@@ -68,6 +68,7 @@ function App() {
     return gradeDict
   }
 
+  
   const findLowestAvg = students => {
     let gradeDict = calculateAverage(students)
 
@@ -88,7 +89,7 @@ function App() {
     return [lowestSixthGrader, lowestSeventhGrader, lowestEigthGrader]
   }
 
-  
+
   let lowestGradesStudentsArray = findLowestAvg(StudentsData)
 
   let displayLowestGradesStudents = lowestGradesStudentsArray.map(student => {
