@@ -2,11 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 button {
   margin: 2rem;
+}
+
+.StudentsContainer {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+ul {
+  margin-bottom: 1rem;
 }

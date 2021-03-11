@@ -3,8 +3,6 @@ import Student from './Student'
 
 function Students(props) {
 
-    console.log(props.studentsData)
-
     let students = props.studentsData.map(student => {
         return (
             <li key={student._id.$oid}>
@@ -16,12 +14,12 @@ function Students(props) {
     })
 
     return (
-        <>
+        <div className='StudentsContainer'>
             <h1>Students</h1>
             <ul>
                 {students}
             </ul>
-        </>
+        </div>
     )
 }
 
