@@ -7,6 +7,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3. Run $ npm install -> installs required dependencies
 4. Run $ npm start -> starts a server and the app should launch 
 
+## Image
+![sample-image-task](https://github.com/wilsonvetdev/new-visions/blob/main/Screen%20Shot%202021-03-11%20at%203.40.34%20PM.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
